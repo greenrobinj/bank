@@ -1,0 +1,20 @@
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-success, .alert-notice {
+  color: black;
+  background-color: blueviolet;
+  border-color: green;
+
+}
+
+.alert-error, .alert-alert {
+  color: rgb(6, 6, 2);
+  background-color: aqua;
+  boarder-color: rgb(11, 28, 28);
+}
